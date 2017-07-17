@@ -1,0 +1,14 @@
+[user]
+    name = Shivansh Chandnani
+    email = aws-schandnani@jumptrading.com
+[current]
+    ui = auto
+[diff]
+    tool =
+[push]
+    default = current
+[alias]
+    graph = log --graph --all --abbrev-commit              --pretty=format:'%Cred%h%Creset - %Cgreen(%cr)%Creset %s%C(yellow)%d%Creset' --date=relative
+    lol   = log --graph       --abbrev-commit --date=short --format=format:'%C(green)%h%C(reset) %C(cyan)%ad%C(reset) %C(white)%s%C(reset) %C(bold white)- %an%C(reset)%C(bold yellow)%d%C(reset)'
+    lola  = log --graph --all --abbrev-commit --date=short --format=format:'%C(green)%h%C(reset) %C(cyan)%ad%C(reset) %C(white)%s%C(reset) %C(bold white)- %an%C(reset)%C(bold yellow)%d%C(reset)'
+

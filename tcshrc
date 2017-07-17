@@ -1,0 +1,4 @@
+if($?prompt) then
+    exec /usr/bin/zsh -l
+    export SHELL=/usr/bin/zsh
+endif
