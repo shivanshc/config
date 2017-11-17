@@ -56,3 +56,6 @@ set statusline=%F\ %l\:%c
 autocmd FileType make setlocal noexpandtab
 autocmd vimenter * NERDTree
 set guifont=consolas:h14
+set encoding=utf-8
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+autocmd VimEnter * wincmd l
